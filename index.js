@@ -12,7 +12,34 @@
  */
 
 // add the movies variables here ....
+const movie1 = {
+    id : 1,
+   name: "the scent of women",
+   Image: "https://m.media-amazon.com/images/I/71S20EOTVxL._SL1500_.jpg",
+   rating: 7,
 
+
+};
+console.log(movie1)
+
+const movie2 = {
+    id: 3,
+    name : "V for Vendenta",
+    Image : "https://m.media-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_.jpg",
+    rating : 8,
+
+};
+console.log(movie2)
+
+
+const movie3 = {
+    id: 3,
+    name : "Les Misérables",
+    Image : "https://s.s-bol.com/imgbase0/imagebase3/large/FC/2/1/6/1/1002004013301612.jpg",
+    rating : 6,
+
+};
+console.log(movie3)
 /** Task 2:
  * Create an array `movies`
  * Add to it the movies that you created on top.
@@ -29,6 +56,9 @@
  *    },
  * ]
  */
+const movies = [
+    ,
+]
 
 /** TASK 3:
  * Create a new file call it `movies.json`
